@@ -25,3 +25,33 @@ Disadvantages:
 
 
 ## PART 9
+
+###A snippet for incremental loading would look something like this:
+- First, you would find the latest inserted order in MongoDB, and then you query it to fetch the new orders from PostgreSQL
+
+(Find the latest inserted order_id in MongoDB)
+latest_order = mongo_collection.find_one(sort=[("order_id", -1)])
+last_order_id = latest_order["order_id"] if latest_order else 0
+
+(Only fetch new orders from PostgreSQL)
+query = f"""
+SELECT 
+    fo.order_id, fo.order_date, dc.customer_id, dc.name, dc.city,
+    dp.product_id, dp.name, dp.price, fo.amount
+FROM fact_orders fo
+JOIN dim_customers dc ON fo.customer_id = dc.customer_id
+JOIN dim_products dp ON fo.product_id = dp.product_id
+WHERE fo.order_id > {last_order_id}
+ORDER BY fo.order_id;
+"""
+pg_cursor.execute(query)
+new_rows = pg_cursor.fetchall()
+
+### For the pipeline to run periodically, you could use this in your command line:
+
+- */5 * * * * /usr/bin/python3 /path/to/etl.py
+
+### If an order is inserted more than once then you will get duplicated data and confusion in queries.
+
+### An advantage of incremental loading is that only new data is inserted, and it is faster and requires less resource usage. However, it is more complex to implement. On the other hand, fully reloading the data is simpler to implement, but it is slower and takes up more resources
+

@@ -26,7 +26,7 @@ Disadvantages:
 
 ## PART 9
 
-###A snippet for incremental loading would look something like this:
+### A snippet for incremental loading would look something like this:
 - First, you would find the latest inserted order in MongoDB, and then you query it to fetch the new orders from PostgreSQL
 
 (Find the latest inserted order_id in MongoDB)

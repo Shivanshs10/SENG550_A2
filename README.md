@@ -51,7 +51,9 @@ new_rows = pg_cursor.fetchall()
 
 - */5 * * * * /usr/bin/python3 /path/to/etl.py
 
-### If an order is inserted more than once then you will get duplicated data and confusion in queries.
+### If order is inserted more than once
+
+If an order is inserted more than once then you will get duplicated data and confusion in queries.
 
 ### Incremental loading vs Fully reloading
 

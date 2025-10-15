@@ -53,5 +53,7 @@ new_rows = pg_cursor.fetchall()
 
 ### If an order is inserted more than once then you will get duplicated data and confusion in queries.
 
-### An advantage of incremental loading is that only new data is inserted, and it is faster and requires less resource usage. However, it is more complex to implement. On the other hand, fully reloading the data is simpler to implement, but it is slower and takes up more resources
+### Incremental loading vs Fully reloading
+
+An advantage of incremental loading is that only new data is inserted, and it is faster and requires less resource usage. However, it is more complex to implement. On the other hand, fully reloading the data is simpler to implement, but it is slower and takes up more resources
 

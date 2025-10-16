@@ -2,18 +2,18 @@
 
 ## PART 1
 
-## PART 2
-
 The screenshots of the tables after they've been created:
 
 ![alt text](<Screenshots/Screenshot 2025-10-13 205615.png>)
 
 ![alt text](<Screenshots/Screenshot 2025-10-13 205624.png>)
 
+## PART 2
+
+Screenshot of the tables after running the Python code
+
 ![alt text](<Screenshots/Screenshot 2025-10-13 212846.png>)
-
 ![alt text](<Screenshots/Screenshot 2025-10-13 212857.png>)
-
 ![alt text](<Screenshots/Screenshot 2025-10-13 212908.png>)
 
 
@@ -22,22 +22,21 @@ The screenshots of the tables after they've been created:
 The SQL Query Outputs are below, and a file of all the queries is attached under queries.sql:
 
 ![alt text](<Screenshots/Screenshot 2025-10-13 212937.png>)
-
 ![alt text](<Screenshots/Screenshot 2025-10-13 212947.png>)
-
 ![alt text](<Screenshots/Screenshot 2025-10-13 212959.png>)
-
 ![alt text](<Screenshots/Screenshot 2025-10-13 213010.png>)
 
 
 
 ## PART 4
 
+The database has been set up, so no screenshot required
+
 ## PART 5
 
 ### Part A
 
-Image of the content in MongoDB database:
+Image of the content in the MongoDB database:
 
 ![alt text](<Screenshots/Screenshot 2025-10-14 212538.png>)
 

@@ -4,7 +4,32 @@
 
 ## PART 2
 
+The screenshots of the tables after they've been created:
+
+![alt text](<Screenshots/Screenshot 2025-10-13 205615.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 205624.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 212846.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 212857.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 212908.png>)
+
+
 ## PART 3
+
+The SQL Query Outputs are below, and a file of all the queries is attached under queries.sql:
+
+![alt text](<Screenshots/Screenshot 2025-10-13 212937.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 212947.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 212959.png>)
+
+![alt text](<Screenshots/Screenshot 2025-10-13 213010.png>)
+
+
 
 ## PART 4
 

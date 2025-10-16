@@ -35,9 +35,21 @@ The SQL Query Outputs are below, and a file of all the queries is attached under
 
 ## PART 5
 
-## PART 6
+### Part A
 
-## PART 7
+Image of the content in MongoDB database:
+
+![alt text](<Screenshots/Screenshot 2025-10-14 212538.png>)
+
+### Part B
+
+Queries outputs:
+
+![alt text](<Screenshots/Screenshot 2025-10-14 212306.png>)
+![alt text](<Screenshots/Screenshot 2025-10-14 212321.png>)
+![alt text](<Screenshots/Screenshot 2025-10-14 212340.png>)
+![alt text](<Screenshots/Screenshot 2025-10-14 212415.png>)
+
 
 ## PART 8
 

@@ -22,9 +22,9 @@ Screenshot of the tables after running the Python code
 The SQL Query Outputs are below, and a file of all the queries is attached under queries.sql:
 
 ![alt text](<Screenshots/Screenshot 2025-10-13 212937.png>)
-![alt text](<Screenshots/Screenshot 2025-10-13 212947.png>)
-![alt text](<Screenshots/Screenshot 2025-10-13 212959.png>)
-![alt text](<Screenshots/Screenshot 2025-10-13 213010.png>)
+![alt text](<Screenshots/Screenshot 2025-10-17 001438.png>)
+![alt text](<Screenshots/Screenshot 2025-10-17 001456.png>)
+![alt text](<Screenshots/Screenshot 2025-10-17 001517.png>)
 
 
 
